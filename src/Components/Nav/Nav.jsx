@@ -4,25 +4,80 @@ const Nav = () => {
   const Links = (
     <div className="flex flex-col md:flex-row lg:flex-row gap-3">
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? 'border-2 font-semibold text-[#23BE0A] border-[#23BE0A]'
+              : isPending
+              ? 'pending'
+              : ''
+          }
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/statistics">Statistics</NavLink>
+        <NavLink
+          to="/listed-books"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? 'border-2   font-semibold text-[#23BE0A] border-[#23BE0A]'
+              : isPending
+              ? 'pending'
+              : ''
+          }
+        >
+          Listed Books
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/jobs">Jobs</NavLink>
+        <NavLink
+          to="/pages-to-read"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? 'border-2  font-semibold text-[#23BE0A] border-[#23BE0A]'
+              : isPending
+              ? 'pending'
+              : ''
+          }
+        >
+          Pages to Read
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/applied">Applied Jobs</NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? 'border-2   font-semibold text-[#23BE0A] border-[#23BE0A]'
+              : isPending
+              ? 'pending'
+              : ''
+          }
+        >
+          About
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/blog">Blog</NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive, isPending }) =>
+            isActive
+              ? 'border-2  font-semibold text-[#23BE0A] border-[#23BE0A]'
+              : isPending
+              ? 'pending'
+              : ''
+          }
+        >
+          Contact
+        </NavLink>
       </li>
     </div>
   );
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar max-w-7xl container mx-auto my-5 bg-base-100 font-work">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -48,13 +103,14 @@ const Nav = () => {
             {Links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">CareerHub</a>
+        <a className="btn btn-ghost text-xl">Book Vibe</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1"> {Links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn bg-[#23BE0A] mr-3">Sign In</a>
+        <a className="btn bg-[#59C6D2]">Sign Up</a>
       </div>
     </div>
   );
