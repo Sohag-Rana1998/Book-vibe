@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-neutral text-neutral-content">
-        <div className="container mx-auto max-w-7xl flex justify-between px-10">
+        <div className="container mx-auto max-w-7xl flex flex-col md:flex-row lg:flex-row justify-between lg:px-10">
           <aside>
             <svg
               width="50"

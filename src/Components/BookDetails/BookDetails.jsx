@@ -5,8 +5,13 @@ import { toast } from 'react-toastify';
 const BookDetails = () => {
   const { bookId } = useParams();
   const booksData = useLoaderData();
+  const [displayData, setDisplayData] = useState({});
 
-  const singleBook = booksData.find(book => book.bookId == bookId);
+  useEffect(() => {
+    const singleBook = booksData?.find(book => book.bookId == bookId);
+    setDisplayData(singleBook);
+  }, [bookId, booksData]);
+
   const {
     image,
     author,
@@ -18,7 +23,7 @@ const BookDetails = () => {
     totalPages,
     publisher,
     yearOfPublishing,
-  } = singleBook;
+  } = displayData;
 
   const savedToRead = JSON.parse(localStorage.getItem('read') || '[]');
   const savedToWishlist = JSON.parse(localStorage.getItem('wishlist') || '[]');
@@ -79,7 +84,7 @@ const BookDetails = () => {
 
           <div className="text-lg  mt-4 font-bold text-[#23BE0A] font-work flex justify-between items-center">
             <h4 className="text-black">Tag</h4>
-            {tags.map((tag, index) => (
+            {tags?.map((tag, index) => (
               <div key={index} className=" ">
                 <h2 className="bg-[#F3F3F3] p-2 rounded-3xl">#{tag}</h2>
               </div>
@@ -105,11 +110,14 @@ const BookDetails = () => {
             </h2>
           </div>
           <div className="font-work text-lg font-semibold mt-6">
-            <button onClick={() => handleRead(singleBook)} className="btn mr-6">
+            <button
+              onClick={() => handleRead(displayData)}
+              className="btn mr-6"
+            >
               Read
             </button>
             <button
-              onClick={() => handleWishList(singleBook)}
+              onClick={() => handleWishList(displayData)}
               className="btn bg-[#50B1C9] text-white"
             >
               Wishlist

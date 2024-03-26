@@ -1,5 +1,13 @@
 import { useEffect, useState } from 'react';
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
+import {
+  BarChart,
+  Bar,
+  Cell,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  ResponsiveContainer,
+} from 'recharts';
 
 const PagesToRead = () => {
   const books = JSON.parse(localStorage.getItem('read' || '[]'));
@@ -37,31 +45,33 @@ const PagesToRead = () => {
   return (
     <div className="max-w-7xl bg-gray-100 rounded-2xl flex justify-center items-center container h-screen mx-auto mb-5">
       {displayData && displayData.length > 0 ? (
-        <BarChart
-          width={1000}
-          height={500}
-          data={data}
-          margin={{
-            top: 20,
-            right: 30,
-            left: 20,
-            bottom: 5,
-          }}
-        >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="bookName" />
-          <YAxis />
-          <Bar
-            dataKey="totalPages"
-            fill="#8884d8"
-            shape={<TriangleBar />}
-            label={{ position: 'top' }}
+        <ResponsiveContainer>
+          <BarChart
+            width={1000}
+            height={500}
+            data={data}
+            margin={{
+              top: 20,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
           >
-            {displayData.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-            ))}
-          </Bar>
-        </BarChart>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="bookName" />
+            <YAxis />
+            <Bar
+              dataKey="totalPages"
+              fill="#8884d8"
+              shape={<TriangleBar />}
+              label={{ position: 'top' }}
+            >
+              {displayData.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+              ))}
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
       ) : (
         <div className="text-4xl text-center font-play font-bold">
           Please Add Some Books <br /> To Reading List and Then Come To See This

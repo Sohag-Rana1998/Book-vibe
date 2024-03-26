@@ -47,7 +47,7 @@ const Nav = () => {
       </li>
       <li>
         <NavLink
-          to="/about"
+          to="/blogs"
           className={({ isActive, isPending }) =>
             isActive
               ? 'border-2   font-semibold text-[#23BE0A] border-[#23BE0A]'
@@ -56,7 +56,7 @@ const Nav = () => {
               : ''
           }
         >
-          About
+          Blogs
         </NavLink>
       </li>
       <li>
@@ -101,6 +101,10 @@ const Nav = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             {Links}
+            <div className="navbar-end">
+              <a className="btn bg-[#23BE0A] mr-3">Sign In</a>
+              <a className="btn bg-[#59C6D2]">Sign Up</a>
+            </div>
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">Book Vibe</a>
@@ -108,7 +112,7 @@ const Nav = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1"> {Links}</ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end hidden md:block lg:block">
         <a className="btn bg-[#23BE0A] mr-3">Sign In</a>
         <a className="btn bg-[#59C6D2]">Sign Up</a>
       </div>

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -8,11 +8,12 @@ const Banner = () => {
           Books to freshen <br /> up your bookshelf
         </h1>
 
-        <Link to="/listed-books">
+        <NavLink to={'/listed-books'}>
+          {' '}
           <button className="btn font-bold text-xl font-work text-white bg-[#23BE0A] mt-4 lg:mt-10">
-            View The List
+            View The List{' '}
           </button>
-        </Link>
+        </NavLink>
       </div>
       <div className="w-full lg:w-[320px] h-60 lg:h-[400px]">
         <img
