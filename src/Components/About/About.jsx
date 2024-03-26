@@ -3,11 +3,11 @@ const About = () => {
     <div className="max-w-7xl container mx-auto">
       <div className="card w-full bg-base-100 shadow-xl my-5">
         <div className="p-5">
-          <h2 className="text-5xl font-bold font-play ">
+          <h2 className="text-4xl font-bold font-play ">
             Hell Ships of World War 2- The Dark Journey of Allied POWs Across
             the Japanese Empire!
           </h2>
-          <div className="flex gap-3 lg:gap-10 text-2xl mt-5  items-center">
+          <div className="flex gap-3 flex-col md:flex-row lg:flex-row lg:gap-10 text-2xl mt-5  items-start lg:items-center">
             <h3>3/7/2024</h3>
             <h3>by Gabriel Carrillo</h3>
           </div>
@@ -37,10 +37,10 @@ const About = () => {
 
       <div className="card w-full bg-base-100 shadow-xl my-5">
         <div className="p-5">
-          <h2 className="text-5xl font-bold font-play ">
+          <h2 className="text-4xl font-bold font-play ">
             M4 Sherman Tank Uses in WW2
           </h2>
-          <div className="flex gap-3 lg:gap-10 text-2xl mt-5  items-center">
+          <div className="flex gap-3 flex-col md:flex-row lg:flex-row lg:gap-10 text-2xl mt-5  items-start lg:items-center">
             <h3>2/28/2024</h3>
             <h3>by Vadym Velychko</h3>
           </div>
@@ -71,10 +71,10 @@ const About = () => {
 
       <div className="card w-full bg-base-100 shadow-xl my-5">
         <div className="p-5">
-          <h2 className="text-5xl font-bold font-play ">
+          <h2 className="text-4xl font-bold font-play ">
             3 Most Lethal Weapons in World War 2
           </h2>
-          <div className="flex gap-3 lg:gap-10 text-2xl mt-5  items-center">
+          <div className="flex gap-3 flex-col md:flex-row lg:flex-row lg:gap-10 text-2xl mt-5  items-start lg:items-center">
             <h3>2/20/2024</h3>
             <h3>by Vadym Velychko</h3>
           </div>
@@ -110,10 +110,10 @@ const About = () => {
 
       <div className="card w-full bg-base-100 shadow-xl my-5">
         <div className="p-5">
-          <h2 className="text-5xl font-bold font-play ">
+          <h2 className="text-4xl font-bold font-play ">
             Steel Titans Clash- Type 97 Chi-Ha vs. M4 Sherman on Saipan
           </h2>
-          <div className="flex gap-3 lg:gap-10 text-2xl mt-5  items-center">
+          <div className="flex gap-3 flex-col md:flex-row lg:flex-row lg:gap-10 text-2xl mt-5 items-start  lg:items-center">
             <h3>2/20/2024</h3>
             <h3>by Jenny Chan</h3>
           </div>
