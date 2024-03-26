@@ -11,3 +11,8 @@
 .font-work {
   font-family: "Work Sans", sans-serif;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+}

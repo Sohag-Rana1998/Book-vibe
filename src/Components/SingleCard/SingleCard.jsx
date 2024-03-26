@@ -6,16 +6,16 @@ const SingleCard = ({ book }) => {
   return (
     <Link to={`/book-details/${bookId}`}>
       <div className="h-full py-5">
-        <div className="cursor-pointer p-10 w-full bg-base-100 h-full shadow-xl border-2 rounded-2xl border-gray-400">
-          <div className="rounded-3xl h-80 bg-[#F3F3F3]  w-full ">
+        <div className="cursor-pointer p-5 w-full bg-base-100 h-full shadow-xl border-2 rounded-2xl border-gray-200">
+          <div className="rounded-3xl h-96 bg-[#F3F3F3] p-5 w-full ">
             <img
               src={image}
               alt=""
-              className="w-full h-full mx-auto my-auto px-16 py-10"
+              className="w-full h-full mx-auto my-auto lg:px-16 py-10"
             />
           </div>
 
-          <div className="text-lg  mt-4 font-bold text-[#23BE0A] font-work flex justify-between items-center">
+          <div className="text-lg  mt-4 font-bold text-[#23BE0A] font-work flex justify-between flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center">
             {tags.map((tag, index) => (
               <div key={index} className=" ">
                 <h2 className="bg-[#F3F3F3] p-2 rounded-3xl">{tag}</h2>

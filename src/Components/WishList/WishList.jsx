@@ -4,37 +4,34 @@ import { IoPeopleSharp } from 'react-icons/io5';
 
 const WishList = ({ book }) => {
   return (
-    <div>
-      <div className="flex flex-col md:flex-row lg:flex-row gap-10 p-5 mb-10  w-full bg-base-100 h-full shadow-xl border-2 rounded-2xl border-gray-400 ">
-        <div className="rounded-3xl h-auto lg:h-96 bg-[#F3F3F3]  w-full ">
-          <img
-            src={book.image}
-            alt=""
-            className="w-[50%] h-full mx-auto my-auto  lg:px-16 lg:py-10"
-          />
-        </div>
-
-        <div className="text-left  space-y-8 w-full ">
-          <h2 className="text-2xl font-bold font-play">{book.bookName}</h2>
+    <div className="hero mx-auto mt-20 shadow-2xl rounded-3xl border-2 border-gray-200">
+      <div className="hero-content h-auto w-full justify-around items-start flex-col  lg:flex-row">
+        <img
+          src={book.image}
+          className="max-w-sm w-full lg:w-60 h-80 border-2 border-gray-500 p-5  ml-0 bg-base-200 rounded-lg shadow-2xl"
+        />
+        <div>
+          <h2 className="text-2xl font-bold font-play mt-5 mb-3">
+            {book.bookName}
+          </h2>
           <p className="font-work font-semibold">By: {book.author}</p>
-
-          <div className="flex justify-between items-center text-lg font-bold font-work">
-            <div className="text-lg  mt-4 font-bold text-[#23BE0A]  flex justify-between items-center gap-3">
-              <span className="text-black">Tag</span>
+          <div className="flex flex-col lg:flex-row gap-5 my-5 justify-between items-start lg:items-center text-lg font-bold font-work">
+            <div className="text-lg my-5  items-center  font-bold text-[#23BE0A]  flex  justify-between  gap-3">
+              <span className="text-black hidden md:block lg:block">Tag</span>
               {book.tags.map((tag, index) => (
                 <div key={index} className=" ">
                   <h2 className="bg-[#F3F3F3] p-2 rounded-3xl">#{tag}</h2>
                 </div>
               ))}
             </div>
-            <div className="flex items-center gap-3 text-lg font-semiboldbold font-work">
+            <div className="flex items-center gap-3 text-lg font-semibold font-work">
               <IoLocationOutline></IoLocationOutline>
               Year of Publishing:
               <span>{book.yearOfPublishing}</span>
             </div>
           </div>
-          <div className="flex items-center justify-between gap-3">
-            <div className="flex items-center gap-3">
+          <div className="flex items-start lg:items-center flex-col lg:flex-row justify-between gap-3">
+            <div className="flex items-start lg:items-center gap-3">
               <p>
                 <IoPeopleSharp></IoPeopleSharp>
               </p>
@@ -62,7 +59,7 @@ const WishList = ({ book }) => {
               <p>Page: {book.totalPages}</p>
             </div>
           </div>
-          <div className="font-work  font-semibold flex justify-between items-center w-full space-y-5">
+          <div className="font-work  font-semibold flex flex-col lg:flex-row items-start justify-between lg:items-center w-full space-y-5">
             <p className="bg-blue-100 mt-4 p-3 rounded-3xl text-[#328EFF]">
               Category: {book.category}
             </p>

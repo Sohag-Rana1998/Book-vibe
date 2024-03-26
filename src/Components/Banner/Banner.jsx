@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="max-w-7xl container mx-auto h-auto lg:h-[550px] bg-gray-200 rounded-3xl flex flex-col-reverse lg:flex-row  justify-around items-center p-5">
       <div className="text-center lg:text-left">
-        <h1 className="font-play text-6xl font-bold">
+        <h1 className="font-play text-4xl lg:text-6xl font-bold">
           Books to freshen <br /> up your bookshelf
         </h1>
 

@@ -61,20 +61,20 @@ const BookDetails = () => {
   }, [wishlist]);
 
   return (
-    <div className="max-w-7xl container  mx-auto">
-      <div className="flex flex-col w-full h-full lg:flex-row  my-5  justify-between gap-10">
-        <div className="bg-[#F3F3F3] w-full  h-auto  rounded-2xl">
-          <div className="p-10 ">
-            <img src={image} alt="" className="w-full h-full p-5 lg:p-16" />
+    <div className="max-w-7xl container h-auto mx-auto">
+      <div className="flex flex-col w-full  lg:flex-row  my-5  justify-between gap-10">
+        <div className="bg-[#F3F3F3] w-full  rounded-2xl">
+          <div className="flex justify-center items-center h-full ">
+            <img src={image} alt="" className="max-w-lg container  p-5 " />
           </div>
         </div>
 
-        <div className="w-full h-full flex flex-col justify-between">
+        <div className="w-full h-full flex px-5 flex-col justify-between">
           <div>
             <h1 className="text-4xl font-bold font-play mb-3">{bookName}</h1>
             <p className="font-work font-semibold">By: {author}</p>
             <div className="divider w-full border-dashed"></div>
-            <p className="font-work font-semibold">By: {category}</p>
+            <p className="font-work font-semibold">{category}</p>
             <div className="divider w-full border-dashed"></div>
             <p className="font-work font-semibold mb-3">
               <span className="font-bold">Review: </span>
@@ -82,8 +82,8 @@ const BookDetails = () => {
             </p>
           </div>
 
-          <div className="text-lg  mt-4 font-bold text-[#23BE0A] font-work flex justify-between items-center">
-            <h4 className="text-black">Tag</h4>
+          <div className="text-lg  mt-4 font-bold text-[#23BE0A] font-work flex justify-between flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center">
+            <h4 className="text-black hidden md:block lg:block">Tag</h4>
             {tags?.map((tag, index) => (
               <div key={index} className=" ">
                 <h2 className="bg-[#F3F3F3] p-2 rounded-3xl">#{tag}</h2>

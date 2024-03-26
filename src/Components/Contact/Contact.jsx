@@ -4,7 +4,7 @@ const Contact = () => {
       <div className="text-4xl font-bold font-play p-4 text-center lg:p-10">
         <h2>Contact With Us</h2>
       </div>
-      <div className="w-[50%] h-auto lg:h-[500px] bg-blue-gray-100 rounded-2xl my-10">
+      <div className="w-full lg:w-[50%] h-auto lg:h-[500px] bg-blue-gray-100 rounded-2xl my-10">
         <div className="w-full flex flex-col items-center   h-full text-xl font-bold font-play  mx-auto p-5 rounded-2xl">
           <div className="w-full">
             <div className="w-full mb-5">
@@ -31,7 +31,7 @@ const Contact = () => {
           <div className="w-full">
             <h3>Your Message:</h3>
             <textarea
-              className="text-area w-full pl-5 pt-5"
+              className="text-area w-full pl-5 pt-5 rounded-lg"
               name=""
               id=""
               cols="30"
@@ -39,7 +39,9 @@ const Contact = () => {
               placeholder="Message"
             ></textarea>
           </div>
-          <button className="btn bg-blue-600 w-full text-white">Sent</button>
+          <button className="btn mt-3 bg-blue-600 w-full text-white">
+            Sent
+          </button>
         </div>
       </div>
     </div>
