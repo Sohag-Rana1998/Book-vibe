@@ -1,9 +1,15 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const useBooksData = () => {
   const [booksData, setBooksData] = useState([]);
 
-  return <div></div>;
+  useEffect(() => {
+    fetch('./booksData.json')
+      .then(res => res.json())
+      .then(data => setBooksData(data));
+  }, []);
+
+  return { booksData };
 };
 
 export default useBooksData;
