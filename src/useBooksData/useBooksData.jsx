@@ -9,6 +9,7 @@ const useBooksData = () => {
       .then(data => setBooksData(data));
   }, []);
 
+  console.log(booksData);
   return { booksData };
 };
 

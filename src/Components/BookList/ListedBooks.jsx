@@ -63,7 +63,7 @@ const ListedBooks = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn m-1 bg-[#23BE0A] flex items-center gap-4 text-white text-lg font-work font-semibold"
+              className="btn  m-1 bg-[#23BE0A] flex items-center gap-4 text-white text-lg font-work font-semibold"
             >
               Sort By <FaChevronDown></FaChevronDown>
             </div>

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Banner = () => {
   return (
     <div className="max-w-7xl container mx-auto h-auto lg:h-[550px] bg-gray-200 rounded-3xl flex flex-col-reverse lg:flex-row  justify-around items-center p-5">
@@ -5,9 +7,12 @@ const Banner = () => {
         <h1 className="font-play text-6xl font-bold">
           Books to freshen <br /> up your bookshelf
         </h1>
-        <button className="btn font-bold text-xl font-work text-white bg-[#23BE0A] mt-4 lg:mt-10">
-          View The List
-        </button>
+
+        <Link to="/listed-books">
+          <button className="btn font-bold text-xl font-work text-white bg-[#23BE0A] mt-4 lg:mt-10">
+            View The List
+          </button>
+        </Link>
       </div>
       <div className="w-full lg:w-[320px] h-60 lg:h-[400px]">
         <img
