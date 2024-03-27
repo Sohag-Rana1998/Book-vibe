@@ -1,7 +1,7 @@
 [
   {
     "bookId": 1,
-    "bookName": "The Silent Patient",
+    "bookName": "The Dating Playbook",
     "author": "Alex Michaelides",
     "image": "https://i.ibb.co/K9cRc0X/banner.png",
     "review": "The Silent Patient by Alex Michaelides is a gripping psychological thriller that keeps you on the edge of your seat from beginning to end. The story follows Alicia Berenson, a celebrated painter who seemingly has it all until she murders her husband and then stops speaking, becoming what the media dubs 'The Silent Patient.' Enter Theo Faber, a psychotherapist with his own troubled past, who becomes obsessed with Alicia's case and is determined to uncover the truth behind her silence. Michaelides masterfully weaves together multiple narratives and perspectives, keeping readers guessing until the very last page. The characters are complex and deeply flawed, making them all the more compelling. The writing is taut and atmospheric, creating a sense of unease that lingers long after you've finished the book. The Silent Patient is a must-read for fans of psychological thrillers, with its unexpected twists and turns that will leave you breathless.",
@@ -14,7 +14,7 @@
   },
   {
     "bookId": 2,
-    "bookName": "Educated",
+    "bookName": "Why Do you Hate Money",
     "author": "Tara Westover",
     "image": "https://i.ibb.co/y5bWcBP/book2.png",
     "review": "Educated by Tara Westover is a powerful memoir that explores the author's journey from growing up in a strict, isolated household in rural Idaho to earning a PhD from Cambridge University. Westover's writing is raw and honest, as she recounts the challenges she faced growing up without formal education and the abuse she endured at the hands of her family. Despite the obstacles, Westover's determination to educate herself shines through, and her story is ultimately one of resilience and self-discovery. Through her experiences, she sheds light on the power of education to transform lives and break cycles of abuse. Educated is a compelling read that will stay with you long after you've turned the last page.",
@@ -27,7 +27,7 @@
   },
   {
     "bookId": 3,
-    "bookName": "The Night Circus",
+    "bookName": "The Hate U Give",
     "author": "Erin Morgenstern",
     "image": "https://i.ibb.co/qg7gDxm/book3.png",
     "review": "The Night Circus by Erin Morgenstern is a mesmerizing tale of magic, love, and destiny set in a mysterious circus that arrives without warning and is only open at night. The story follows Celia and Marco, two young magicians bound by a magical competition orchestrated by their mentors. As their rivalry intensifies, so too does their attraction to each other, leading to a forbidden romance that threatens to unravel the very fabric of the circus. Morgenstern's prose is lyrical and enchanting, drawing readers into a world that is both enchanting and perilous. The circus itself is a character, with its intricate tents and enchanting performances that captivate both the characters and the readers alike. The Night Circus is a spellbinding read that will transport you to a world of wonder and magic.",
@@ -40,7 +40,7 @@
   },
   {
     "bookId": 4,
-    "bookName": "The Subtle Art of Not Giving a F*ck",
+    "bookName": "The Scholarship Monthly Planner",
     "author": "Mark Manson",
     "image": "https://i.ibb.co/Nr5nmSJ/book4.png",
     "review": "The Subtle Art of Not Giving a F*ck by Mark Manson is a refreshing and unconventional self-help book that challenges conventional wisdom about positivity and success. Manson argues that life's struggles and challenges are inevitable, and that happiness comes not from avoiding them, but from embracing them and choosing what to care about. With blunt humor and practical advice, Manson encourages readers to prioritize what truly matters to them and let go of the rest. He emphasizes the importance of taking responsibility for one's own life and actions, rather than blaming external factors or seeking constant validation from others. The Subtle Art of Not Giving a F*ck is a thought-provoking read that will make you reevaluate your priorities and approach to life.",
@@ -53,7 +53,7 @@
   },
   {
     "bookId": 5,
-    "bookName": "1984",
+    "bookName": "Annotated Texas Family Code 2019",
     "author": "George Orwell",
     "image": "https://i.ibb.co/b7ZLcgJ/book5.png",
     "review": "1984 by George Orwell is a chilling dystopian novel that explores the dangers of totalitarianism and the erosion of individual freedom. Set in a future society where the government, led by the oppressive Party and its enigmatic leader Big Brother, monitors and controls every aspect of people's lives, the story follows Winston Smith, a low-ranking member of the Party who begins to question the reality of his world and rebel against its tyranny. Orwell's vision of a surveillance state where truth is subjective and dissent is punished resonates as much today as it did when the novel was first published in 1949. With its themes of censorship, propaganda, and the manipulation of truth, 1984 remains a powerful warning against the dangers of authoritarianism and the importance of preserving freedom and individuality.",
@@ -66,20 +66,20 @@
   },
   {
     "bookId": 6,
-    "bookName": "Sapiens: A Brief History of Humankind",
-    "author": "Yuval Noah Harari",
-    "image": "https://i.ibb.co/GsGv2FV/book6.png",
-    "review": "Sapiens: A Brief History of Humankind by Yuval Noah Harari is a fascinating exploration of the history of our species, from the emergence of Homo sapiens in Africa to the present day. Harari takes readers on a journey through time, examining key events and developments that have shaped the course of human evolution, from the Agricultural Revolution to the rise of empires to the technological advancements of the modern era. Along the way, he challenges commonly held beliefs about the nature of humanity and offers thought-provoking insights into the forces that have shaped our species and our world. Written in a clear and engaging style, Sapiens is a thought-provoking read that will change the way you think about the history of our species and our place",
-    "totalPages": 464,
-    "rating": 4.7,
+    "bookName": "Love Quran More",
+    "author": "Allah Our Creator",
+    "image": "https://i.ibb.co/LJLycfh/holy-quran-white-127657-11910.jpg",
+    "review": "The Quran, Islam's central religious text, is a profound and multifaceted scripture that serves as the foundation of Muslim faith, practice, and culture. It is believed by Muslims to be the literal word of God as revealed to the Prophet Muhammad over a period of approximately 23 years in the 7th century CE. At its core, the Quran is a spiritual guide, offering moral and ethical teachings, legal principles, and guidance on matters of faith and worship. Its verses cover a wide range of topics, including theology, morality, history, law, and guidance for personal conduct. The language of the Quran is considered by believers to be miraculous, with its eloquence and beauty believed to be beyond human capability.One of the Quran's most distinctive features is its structure and literary style. It is written in classical Arabic prose, characterized by its rhythmic patterns and rhymed verses, known as ayat. This linguistic richness adds to the depth and resonance of its message, making it a source of contemplation and inspiration for Muslims worldwide.",
+    "totalPages": 600,
+    "rating": 5.0,
     "category": "Non-Fiction",
-    "tags": ["History", "Anthropology"],
-    "publisher": "Harper",
-    "yearOfPublishing": 2014
+    "tags": ["LifeStyle", "Universal True Book"],
+    "publisher": "Mohammad sa.",
+    "yearOfPublishing": 632
   },
   {
     "bookId": 7,
-    "bookName": "The Great Gatsby",
+    "bookName": "The Lost Earth Of Good Conversation",
     "author": "F. Scott Fitzgerald",
     "image": "https://i.ibb.co/hycN17N/book7.png",
     "review": "1984 by George Orwell is a chilling dystopian novel that explores the dangers of totalitarianism and the erosion of individual freedom. Set in a future society where the government, led by the oppressive Party and its enigmatic leader Big Brother, monitors and controls every aspect of people's lives, the story follows Winston Smith, a low-ranking member of the Party who begins to question the reality of his world and rebel against its tyranny. Orwell's vision of a surveillance state where truth is subjective and dissent is punished resonates as much today as it did when the novel was first published in 1949. With its themes of censorship, propaganda, and the manipulation of truth, 1984 remains a powerful warning against the dangers of authoritarianism and the importance of preserving freedom and individuality.",
@@ -92,20 +92,20 @@
   },
   {
     "bookId": 8,
-    "bookName": "To Kill a Mockingbird",
-    "author": "Harper Lee",
-    "image": "https://i.ibb.co/0G6Fqy6/book8.png",
-    "review": "The Night Circus by Erin Morgenstern is a mesmerizing tale of magic, love, and destiny set in a mysterious circus that arrives without warning and is only open at night. The story follows Celia and Marco, two young magicians bound by a magical competition orchestrated by their mentors. As their rivalry intensifies, so too does their attraction to each other, leading to a forbidden romance that threatens to unravel the very fabric of the circus. Morgenstern's prose is lyrical and enchanting, drawing readers into a world that is both enchanting and perilous. The circus itself is a character, with its intricate tents and enchanting performances that captivate both the characters and the readers alike. The Night Circus is a spellbinding read that will transport you to a world of wonder and magic.",
+    "bookName": "Ar-Raheeq Al-Makhtum",
+    "author": "Shaikh Safir Uddin Mobarokpuri",
+    "image": "https://i.ibb.co/p0dfGvR/ar-raheeq-al-makhtum-the-sealed-nectar-revised-edition-7-x-10-full-size-236.jpg",
+    "review": "Ar-Raheeq Al-Makhtum, often translated as 'The Sealed Nectar,' is a biography of the Prophet Muhammad (peace be upon him), written by Safiur Rahman Mubarakpuri. Originally published in Arabic, it provides a comprehensive account of the life of the Prophet from his birth to his death.comprehensive_biographyThe book offers a detailed and well-researched portrayal of the Prophet Muhammad's life, drawing upon authentic historical sources and narratives. It covers various aspects, including his genealogy, upbringing, early life, prophethood, struggles, triumphs, and teachings. The narrative is organized chronologically, allowing readers to follow the Prophet's life journey in a coherent manner.historical_accuracy Ar-Raheeq Al-Makhtum is praised for its historical accuracy and meticulous research. The author relies on primary sources such as Quranic verses, Hadith (Prophetic traditions), historical texts, and scholarly works to present an authentic depiction of the Prophet's life and times. This attention to detail enhances the credibility of the biography among readers and scholars alike.",
     "totalPages": 324,
     "rating": 4.9,
-    "category": "Classic",
-    "tags": ["Social Issues", "Southern Gothic"],
-    "publisher": "J. B. Lippincott & Co.",
-    "yearOfPublishing": 1960
+    "category": "Life Of Prophet",
+    "tags": ["LifeStyle", "prophethood"],
+    "publisher": "Mao. SafirUddin",
+    "yearOfPublishing": 1989
   },
   {
     "bookId": 9,
-    "bookName": "Pride and Prejudice",
+    "bookName": "Spine Of The Dragon",
     "author": "Jane Austen",
     "image": "https://i.ibb.co/KmRqMZn/book9.png",
     "review": "The Silent Patient by Alex Michaelides is a gripping psychological thriller that keeps you on the edge of your seat from beginning to end. The story follows Alicia Berenson, a celebrated painter who seemingly has it all until she murders her husband and then stops speaking, becoming what the media dubs 'The Silent Patient.' Enter Theo Faber, a psychotherapist with his own troubled past, who becomes obsessed with Alicia's case and is determined to uncover the truth behind her silence. Michaelides masterfully weaves together multiple narratives and perspectives, keeping readers guessing until the very last page. The characters are complex and deeply flawed, making them all the more compelling. The writing is taut and atmospheric, creating a sense of unease that lingers long after you've finished the book. The Silent Patient is a must-read for fans of psychological thrillers, with its unexpected twists and turns that will leave you breathless.",

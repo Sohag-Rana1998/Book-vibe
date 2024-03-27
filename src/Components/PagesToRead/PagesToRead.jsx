@@ -20,7 +20,7 @@ const PagesToRead = () => {
       books.map(book => (book.bookName = book.bookName.slice(0, 14)));
 
     setDisplayData(books);
-  }, []);
+  }, [books]);
 
   const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
 
