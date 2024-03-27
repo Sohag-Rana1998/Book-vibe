@@ -1,6 +1,6 @@
-/* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom';
 import { FaRegStar } from 'react-icons/fa';
+import PropTypes from 'prop-types';
 const SingleCard = ({ book }) => {
   const { bookId, image, author, bookName, rating, tags, category } = book;
   return (
@@ -39,4 +39,7 @@ const SingleCard = ({ book }) => {
   );
 };
 
+SingleCard.propTypes = {
+  book: PropTypes.object.isRequired,
+};
 export default SingleCard;

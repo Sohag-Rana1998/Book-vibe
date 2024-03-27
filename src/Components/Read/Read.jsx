@@ -1,6 +1,8 @@
+/* eslint-disable react/no-unknown-property */
 import { Link } from 'react-router-dom';
 import { IoLocationOutline } from 'react-icons/io5';
 import { IoPeopleSharp } from 'react-icons/io5';
+import PropTypes from 'prop-types';
 
 const Read = ({ book }) => {
   return (
@@ -79,4 +81,7 @@ const Read = ({ book }) => {
   );
 };
 
+Read.propTypes = {
+  book: PropTypes.object.isRequired,
+};
 export default Read;

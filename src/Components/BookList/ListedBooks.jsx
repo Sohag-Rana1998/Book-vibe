@@ -19,9 +19,9 @@ const ListedBooks = () => {
   }, []);
 
   const handleSortByRating = () => {
-    const newBooks = readBooks.sort((a, b) => (a.rating > b.rating ? 1 : -1));
+    const newBooks = readBooks.sort((a, b) => (a.rating > b.rating ? -1 : 1));
     const newWishList = wishBooks.sort((a, b) =>
-      a.rating > b.rating ? 1 : -1
+      a.rating > b.rating ? -1 : 1
     );
     console.log(newBooks);
     setReadBooks(newBooks);
@@ -30,10 +30,10 @@ const ListedBooks = () => {
 
   const handleSortByPages = () => {
     const newBooks = readBooks.sort((a, b) =>
-      a.totalPages > b.totalPages ? 1 : -1
+      a.totalPages > b.totalPages ? -1 : 1
     );
     const newWishList = wishBooks.sort((a, b) =>
-      a.totalPages > b.totalPages ? 1 : -1
+      a.totalPages > b.totalPages ? -1 : 1
     );
     console.log(newBooks);
     setReadBooks(newBooks);
@@ -42,10 +42,10 @@ const ListedBooks = () => {
 
   const handleSortByPublishYear = () => {
     const newBooks = readBooks.sort((a, b) =>
-      a.yearOfPublishing > b.yearOfPublishing ? 1 : -1
+      a.yearOfPublishing > b.yearOfPublishing ? -1 : 1
     );
     const newWishList = wishBooks.sort((a, b) =>
-      a.yearOfPublishing > b.yearOfPublishing ? 1 : -1
+      a.yearOfPublishing > b.yearOfPublishing ? -1 : 1
     );
     console.log(newBooks);
     setReadBooks(newBooks);
@@ -97,7 +97,7 @@ const ListedBooks = () => {
               />
               <div
                 role="tabpanel"
-                className="tab-content bg-base-100 max-w-7xl mx-auto container  rounded-box "
+                className="tab-content border-t-2 border-t-blue-gray-500 bg-base-100 max-w-7xl mx-auto container  rounded-box "
               >
                 <div className="w-full">
                   {displayReadBooks.map(book => (
@@ -115,7 +115,7 @@ const ListedBooks = () => {
               />
               <div
                 role="tabpanel"
-                className="tab-content bg-base-100  max-w-7xl mx-auto container  rounded-box p-6"
+                className="tab-content bg-base-100 border-t-2 border-t-blue-gray-500  max-w-7xl mx-auto container  rounded-box p-6"
               >
                 <div className="w-full">
                   {displayWishListBooks.map(book => (

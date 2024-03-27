@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unknown-property */
 import { Link } from 'react-router-dom';
 import { IoLocationOutline } from 'react-icons/io5';
 import { IoPeopleSharp } from 'react-icons/io5';
-
+import PropTypes from 'prop-types';
 const WishList = ({ book }) => {
   return (
     <div className="hero mx-auto mt-20 shadow-2xl rounded-3xl border-2 border-gray-200">
@@ -79,4 +80,7 @@ const WishList = ({ book }) => {
   );
 };
 
+WishList.propTypes = {
+  book: PropTypes.object.isRequired,
+};
 export default WishList;

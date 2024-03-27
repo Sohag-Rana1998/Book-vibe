@@ -1,4 +1,4 @@
-const About = () => {
+const Blogs = () => {
   return (
     <div className="max-w-7xl container mx-auto">
       <div className="card w-full bg-base-100 shadow-xl my-5">
@@ -150,4 +150,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Blogs;

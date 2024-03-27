@@ -48,7 +48,9 @@ const BookDetails = () => {
       setWishlist([...wishlist, book]);
       toast.success('Book added to your wishlist successfully');
     } else {
-      toast.warn('You already added this book to your wishlist');
+      toast.warn(
+        'You have already added this book to your wishlist or reading list'
+      );
     }
   };
 

@@ -9,12 +9,11 @@ import 'react-toastify/dist/ReactToastify.css';
 import ErrorPage from './Components/ErrorPages/ErrorPage';
 import Home from './Components/Home/Home';
 import Root from './Components/Layout/Root';
-
 import PagesToRead from './Components/PagesToRead/PagesToRead';
-import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import BookDetails from './Components/BookDetails/BookDetails';
 import ListedBooks from './Components/BookList/ListedBooks';
+import Blogs from './Components/Blogs/Blogs';
 
 const router = createBrowserRouter([
   {
@@ -37,7 +36,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/blogs',
-        element: <About></About>,
+        element: <Blogs></Blogs>,
       },
       {
         path: '/contact',
@@ -46,7 +45,7 @@ const router = createBrowserRouter([
       {
         path: '/book-details/:bookId',
         element: <BookDetails></BookDetails>,
-        loader: () => fetch(`../public/booksData.json`),
+        loader: () => fetch(`/booksData.json`),
       },
     ],
   },
