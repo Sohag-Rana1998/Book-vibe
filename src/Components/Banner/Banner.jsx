@@ -18,7 +18,7 @@ const Banner = () => {
       <div className="w-full lg:w-[320px] h-60 lg:h-[400px]">
         <img
           className="w-full h-full"
-          src="https://i.ibb.co/K9cRc0X/banner.png"
+          src="https://i.ibb.co/0Mn0K5p/s-l1600-removebg-preview.png"
           alt=""
         />
       </div>
