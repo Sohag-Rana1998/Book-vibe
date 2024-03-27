@@ -15,7 +15,7 @@ const SingleCard = ({ book }) => {
             />
           </div>
 
-          <div className="text-lg  mt-4 font-bold text-[#23BE0A] font-work flex justify-between flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center">
+          <div className="text-lg  mt-4 font-bold text-[#23BE0A] font-work flex justify-between flex-col md:flex-row lg:flex-row items-start md:items-center lg:items-center gap-2">
             {tags.map((tag, index) => (
               <div key={index} className=" ">
                 <h2 className="bg-[#F3F3F3] p-2 rounded-3xl">{tag}</h2>

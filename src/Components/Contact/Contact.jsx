@@ -39,7 +39,7 @@ const Contact = () => {
               placeholder="Message"
             ></textarea>
           </div>
-          <button className="btn mt-3 bg-blue-600 w-full text-white">
+          <button className="btn mt-2 bg-green-500 w-full text-white">
             Sent
           </button>
         </div>

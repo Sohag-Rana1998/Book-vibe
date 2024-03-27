@@ -70,14 +70,14 @@ const Nav = () => {
               : ''
           }
         >
-          Contact
+          Contact Us
         </NavLink>
       </li>
     </div>
   );
 
   return (
-    <div className="navbar max-w-7xl container mx-auto my-5 bg-base-100 font-work">
+    <div className="navbar max-w-7xl container  mx-auto my-5 bg-base-100 font-work">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -102,19 +102,20 @@ const Nav = () => {
           >
             {Links}
             <div className="navbar-end">
-              <a className="btn bg-[#23BE0A] mr-3">Sign In</a>
-              <a className="btn bg-[#59C6D2]">Sign Up</a>
+              <a className="btn bg-[#23BE0A]  text-white">Sign In</a>
+              <a className="btn bg-[#59C6D2] text-white">Sign Up</a>
             </div>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Book Vibe</a>
+        <a className="btn btn-ghost    text-xl text-[#23BE0A]">Book Vibe</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1"> {Links}</ul>
       </div>
-      <div className="navbar-end hidden md:block lg:block">
-        <a className="btn bg-[#23BE0A] mr-3">Sign In</a>
-        <a className="btn bg-[#59C6D2]">Sign Up</a>
+
+      <div className="navbar-end -top-52 relative md:static lg:static">
+        <a className="btn bg-[#23BE0A] mr-3 text-white">Sign In</a>
+        <a className="btn bg-[#59C6D2] text-white">Sign Up</a>
       </div>
     </div>
   );
