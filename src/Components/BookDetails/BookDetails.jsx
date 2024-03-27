@@ -35,9 +35,9 @@ const BookDetails = () => {
     const isExist = reads.find(read => read.bookId == book.bookId);
     if (!isExist) {
       setReads([...reads, book]);
-      toast.success('Book added to your wishlist successfully');
+      toast.success('Book added to your Reading list successfully');
     } else {
-      toast.warn('You already added this book to your ReadList');
+      toast.warn('You already read this book.');
     }
   };
 
