@@ -28,7 +28,8 @@ const Contact = () => {
               keep our service . If you want to donate us then you can talk to
               our customer care team anytime
             </p>
-            <h1 className="font-bold">+880123456789</h1>
+            <h1 className="font-bold text-3xl mt-5">+880123456789</h1>
+            <h1 className="font-bold text-3xl mt-3">+880123456789</h1>
           </div>
           <div className="w-full  mx-auto h-[400px] px-5 bg-white flex flex-col rounded-2xl justify-center items-center border-2 border-gray-300">
             <LuMessageSquare className="text-5xl font-bold mb-5"></LuMessageSquare>
