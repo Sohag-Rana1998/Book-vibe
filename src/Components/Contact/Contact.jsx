@@ -25,7 +25,7 @@ const Contact = () => {
             <p className="font-bold">
               {' '}
               This is completly free website so we have to take your donation to
-              keep our service . If you want to donate us then we can talk to
+              keep our service . If you want to donate us then you can talk to
               our customer care team anytime
             </p>
             <h1 className="font-bold">+880123456789</h1>
@@ -36,7 +36,7 @@ const Contact = () => {
               Contact Customer Support
             </h1>
             <p className="font-bold">
-              Sometimes you need a little help from your friends. Or a HubSpot
+              Sometimes you need a little help from your friends. Or a Book vibe
               support rep. Don&nbsp;t worry… we&nbsp;re here for you.
             </p>
             <button className="btn bg-green-500 mt-8 text-white">
